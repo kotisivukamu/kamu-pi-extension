@@ -1,0 +1,14 @@
+{
+  "name": "kamu-pi-extension",
+  "version": "0.1.0",
+  "description": "Pi provider extension routing through the kotisivukamu llm-proxy.",
+  "keywords": ["pi-package"],
+  "private": true,
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
